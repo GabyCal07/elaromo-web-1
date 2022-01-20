@@ -41,8 +41,9 @@ export function Main() {
                 <div className="container">
                     <div className="row">
                                            
-                        <img className="section-icon pulse" src="img/search.png" alt="Icono Buscar" />
+                        
                         <h2 className="section-title "> {/* text-center */}                            
+                            <img className="section-icon pulse" src="img/search.png" alt="Icono Buscar" />
                             Fijate si encontrás lo que estás buscando ... 
                         </h2>            
                                             
