@@ -8,8 +8,10 @@ const initForm = {
     mensaje: '',
 }
 
+const baseUrl = process.env.REACT_APP_API_URL;
+
 export function ShowFormulario() {
-    
+        
     const [formValues, setFormValues] = useState( initForm );
 
     const { name, email, mensaje } = formValues;
@@ -39,7 +41,8 @@ export function ShowFormulario() {
         if (!mensaje) return Swal.fire('','Cual es su consulta?','question');
 
         
-        fetch('http://localhost:8080/contacto', {
+        fetch(`${baseUrl}/categorias/contacto`, {
+        //    fetch('http://localhost:8080/contacto', {
             method:'POST',  // para crear            
             headers:{
                 'Content-Type': 'application/json'
