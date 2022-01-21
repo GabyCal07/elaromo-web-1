@@ -69,17 +69,17 @@ return (
         <div className="container py-4 ">
             <div className="row">
                 <div className="bg-light-green text-center mb-5">                        
-                    <h1 className="section-title ps-3 pt-4"> CONTACTO</h1>                    
+                    <h1 className="section-title ps-3 pt-4"> CONTACTO</h1>                                  
+                    <h2 className="section-subtitle ps-3 pb-4"> Envianos tus consultas o comentarios y te responderemos a la brevedad.</h2>
                 </div>
-
-                <div className="col-md-6 mx-auto login-form">
-                    
+                
+                <div className="col-md-6 mx-auto login-form">                    
                     <form onSubmit={handleSubmit}>
                         <div className="form-group">
                             <label>Nombre y Apellido</label>
                             <input
                                 type="text"
-                                className="form-control"
+                                className="form-control"                                
                                 name="name"
                                 value={ name }                                
                                 onChange={handleChange}                                  
@@ -90,7 +90,7 @@ return (
                             <label>E-mail</label>
                             <input
                                 type="email"
-                                className="form-control"
+                                className="form-control"                                
                                 name="email"
                                 value={ email }
                                 onChange={handleChange}                                                                                                                         
@@ -101,12 +101,12 @@ return (
                             <label>Mensaje</label>
                             <textarea
                                 type="text"
-                                className="form-control"
+                                className="form-control"                                
                                 rows="5"
                                 name="mensaje"
                                 value={ mensaje }
                                 onChange={ handleChange }                                
-                            ></textarea>                           
+                            ></textarea>            
                         </div>
                         <div className="form-group">
                             <input

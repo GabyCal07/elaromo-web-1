@@ -43,3 +43,8 @@ textarea:focus, input:focus, input[type]:focus, textarea[type]:focus {
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px hsl(87, 36%, 60%);    
     outline: 0 none;
 }
+textarea:hover, input:hover, input[type]:hover, textarea[type]:hover {
+    border-color: #d4e9bb;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px hsl(87, 36%, 60%);    
+    outline: 0 none;
+}
