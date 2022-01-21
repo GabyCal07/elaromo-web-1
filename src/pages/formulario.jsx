@@ -41,7 +41,7 @@ export function ShowFormulario() {
         if (!mensaje) return Swal.fire('','Cual es su consulta?','question');
 
         
-        fetch(`${baseUrl}/categorias/contacto`, {
+        fetch(`${baseUrl}/contacto`, {
         //    fetch('http://localhost:8080/contacto', {
             method:'POST',  // para crear            
             headers:{
